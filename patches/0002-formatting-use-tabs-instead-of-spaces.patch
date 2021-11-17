@@ -1,0 +1,26 @@
+From 593405c8eefdabb91e4d60e018cf2c1cfc29eb41 Mon Sep 17 00:00:00 2001
+From: Sergii Piatakov <sergii.piatakov@globallogic.com>
+Date: Thu, 15 Nov 2018 15:26:35 +0200
+Subject: [PATCH 2/2] formatting: use tabs instead of spaces
+
+Signed-off-by: Sergii Piatakov <sergii.piatakov@globallogic.com>
+---
+ calculator.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/calculator.cpp b/calculator.cpp
+index 34f8d05..cee21d8 100644
+--- a/calculator.cpp
++++ b/calculator.cpp
+@@ -5,7 +5,7 @@ int Calculator::Add (double a, double b)
+ <<<<<<< HEAD
+     return a + b;
+ =======
+-	return a + b + 0.5;
++	return a + b;
+ >>>>>>> 4ad40a3 (fix truncation error)
+ }
+ 
+-- 
+2.34.0.windows.1
+
